@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bx{
+    width: 850px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.1);
+    margin-top: 50px;
+}
+p{
+    text-indent: 2em;
+    color: #63a0df;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #136ec2;
+}
+a:hover{
+    text-decoration: underline;
+}
+.big-Directory{
+    width: 790px;
+    margin-left: 30px;
+    border-left: none;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.big-Directory .Directory{
+    width: 60px;
+    height: 256px;
+    border-right: 1px solid #cccccc;
+    font-size: 18px;
+    line-height:80px;
+    text-align: right;
+    padding-right: 20px;
+    float: left;
+    background: #fbfbfb;
+}
+.big-Directory .Directory-left{
+    margin-top: 15px;
+}
+.big-Directory .Directory-left ul{
+    list-style: square;
+    color:#cccccc;
+    padding-left: 150px;
+    font-size: 14px;
+    width: 100px;
+}
+.big-Directory .Directory-left ul li a{
+    color: black;
+}
+#Reason{
+    margin-top: 20px;
+}
+#Reason h2{
+    border-left: 15px solid #63a0df;
+    padding-left: 20px;
+    font-weight: 400;
+}
+#Reason p{
+    color: black;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+#Reason .Reason-tp{
+    width: 220px;
+    height: 190px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#Reason .Reason-tp span{
+    font-size: 13px;
+    color: #555;
+    margin-left: 10px;
+}
+#Principles{
+    margin-top: 20px;
+}
+#Principles h2{
+    border-left: 15px solid #63a0df;
+    padding-left: 20px;
+    font-weight: 400;
+}
+#Principles p{
+    color: black;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+#Significance{
+    margin-top: 20px;
+}
+#Significance h2{
+    border-left: 15px solid #63a0df;
+    padding-left: 20px;
+    font-weight: 400;
+}
+#Significance p{
+    color: black;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+#Garbage{
+    margin-top: 20px;
+}
+#Garbage h2{
+    border-left: 15px solid #63a0df;
+    padding-left: 20px;
+    font-weight: 400;
+}
+#Garbage p{
+    color: black;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+#problem{
+    margin-top: 20px;
+}
+#problem h2{
+    border-left: 15px solid #63a0df;
+    padding-left: 20px;
+    font-weight: 400;
+}
+#problem p{
+    color: black;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.ysbig{
+    font-weight: 800;
+    font-size: 20px;
+}
