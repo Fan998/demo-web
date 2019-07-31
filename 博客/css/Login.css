@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 100%;
+    height: 45px;
+    background: #eff4fa;
+}
+.bx{
+    width: 1200px;
+    margin: 0 auto;
+}
+.box .bx .istop{
+    color: #6f95c8;
+    line-height: 45px;
+}
+
+.box .bx .istop .topleft li:hover{
+    color: #1d5494;
+}
+.box .bx .istop img{
+    width: 4%;
+    float: left;
+    margin-right: 30px;
+}
+.box .bx .istop .topleft{
+    list-style: none;
+}
+.box .bx .istop .topleft li{
+    float: left;
+    width: 65px;
+    height: 45px;
+    cursor: pointer;
+    margin-right: 60px;
+    font-size: 14px;
+    text-align: center;
+}
+.box .bx .istop ul .topright{
+    margin-left: 50px;
+    width: 80px;
+}
+.box .bx .istop .smbox{
+    height: 45px;
+    
+}
+.box .bx .istop input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+.box .bx .istop .sous{
+    width: 60px;
+    height: 35px;
+    border: 1px solid rgb(9, 177, 255);
+    border-radius: 5px;
+    color: white;
+    padding-top: 2px;
+    background: rgb(9, 177, 255);
+}
+.bx-2{
+    width: 1000px;
+    margin: 150px auto;
+    position: relative;
+}
+.bx-2 .con-left{
+    float: left;
+    width: 60%;
+    height: 400px;
+}
+.bx-2 .con-left img{
+    position: absolute;
+    top: 1px;
+    right: 530px;
+}
+.bx-2 .con-left h2{
+    color: #6f95c8;
+    font-weight: 500;
+    font-size: 26px;
+}
+.bx-2 .con-left p{
+    color:black;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.bx-2 .con-right{
+    float: right;
+    width: 338px;
+    height: 391px;
+    border: 1px solid #a0b1c4;
+    border-radius: 5px;
+}
+.bx-2 .con-right .con-top{
+    width: 100%;
+    height: 50px;
+    background: #f9fbfe;
+    border-bottom: 1px solid #a0b1c4;
+}
+.bx-2 .con-right .con-top .tab{
+    margin-left: 70px;
+    cursor: pointer;
+    line-height: 50px;
+}
+/* .bx-2 .con-right .con-top .Content-wxqq .wxContent{
+    width: 180px;
+    height: 184px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px;
+    position: absolute;
+}
+.bx-2 .con-right .con-top .Content-wxqq .wxContent p{
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.bx-2 .con-right .con-top .Content-wxqq .wxContent img{
+    width: 100%;
+} */
+.bx-2 .con-right .con-top .text-wx{
+    margin-top: 50px;
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+}
+.bx-2 .con-right .con-top .Content-wxqq .QQContent{
+    padding: 10px;
+    position: absolute;
+    width: 312px;
+    height: 295px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.bx-2 .con-right .con-top .Content-wxqq .QQContent input{
+    width: 270px;
+    height: 40px;
+    border: 1px solid #a0b1c4;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding-left: 10px;
+}
+.bx-2 .con-right .con-top .Content-wxqq .QQContent .one{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+.bx-2 .con-right .con-top .Content-wxqq .QQContent .dl{
+    font-size: 14px;
+    color: #999999;
+    margin-left: 10px;
+}
+.bx-2 .con-right .con-top .Content-wxqq .QQContent .djdl{
+    width: 280px;
+    height: 40px;
+    margin-left: 15px;
+    color: white;
+    background: #5a98de;
+    border: 1px solid #5a98de;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.bx-2 .con-right .con-top .Content-wxqq .QQContent .ewm{
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.bx-2 .con-right .con-top .Content-wxqq .QQContent .ewm span{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #5379a9;
+}
+.bx-2 .con-right .con-top .Content-wxqq .QQContent .wjmm{
+    float: right;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-right: 15px;
+    color: #2255ae;
+}
