@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 100%;
+    height: 78px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.box .tou{
+    width: 1200px;
+    margin: 0 auto;
+}
+.box .tou .tp{
+    float: left;
+    overflow: hidden;
+}
+.box .tou .nav .con-nav{
+    list-style: none;
+}
+.box .tou .nav .con-nav li{
+    float: left;
+}
+.box .tou .nav .con-nav .nav-1{
+    width: 91px;
+    height: 78px;
+    background: url("../images/nav.png") no-repeat 0px 0px;
+}
+.box .tou .nav .con-nav .nav-1:hover{
+    transition: .5s;
+    background: url("../images/nav-on.png")no-repeat 0px 0px;
+}
+.box .tou .nav .con-nav .nav-2{
+    width: 112px;
+    height: 78px;
+    background: url("../images/nav.png") no-repeat -92px 0px;
+}
+.box .tou .nav .con-nav .nav-2:hover{
+    transition: .5s;
+    background: url("../images/nav-on.png")no-repeat -92px 0px;
+}
+.box .tou .nav .con-nav .nav-3{
+    width: 132px;
+    height: 78px;
+    background: url("../images/nav.png") no-repeat -206px 0px;
+}
+.box .tou .nav .con-nav .nav-3:hover{
+    transition: .5s;
+    background: url("../images/nav-on.png")no-repeat -206px 0px;
+}
+.box .tou .nav .con-nav .nav-4{
+    width: 107px;
+    height: 78px;
+    background: url("../images/nav.png") no-repeat -338px 0px;
+}
+.box .tou .nav .con-nav .nav-4:hover{
+    transition: .5s;
+    background: url("../images/nav-on.png")no-repeat -338px 0px;
+}
+.box .tou .nav .con-nav .nav-5{
+    width: 111px;
+    height: 78px;
+    background: url("../images/nav.png") no-repeat -447px 0px;
+}
+.box .tou .nav .con-nav .nav-5:hover{
+    transition: .5s;
+    background: url("../images/nav-on.png")no-repeat -447px 0px;
+}
+.box .tou .nav .con-nav .nav-6{
+    width: 111px;
+    height: 78px;
+    background: url("../images/nav.png") no-repeat -560px 0px;
+}
+.box .tou .nav .con-nav .nav-6:hover{
+    transition: .5s;
+    background: url("../images/nav-on.png")no-repeat -560px 0px;
+}
+.box .tou .nav .con-nav .nav-7{
+    width: 108px;
+    height: 78px;
+    background: url("../images/nav.png") no-repeat -678px 0px;
+}
+.box .tou .nav .con-nav .nav-7:hover{
+    transition: .5s;
+    background: url("../images/nav-on.png")no-repeat -678px 0px;
+}
+.box .tou .search-qq{
+    float: right;
+    width: 118px;
+    height: 78px;
+    position: relative;
+}
+.box .tou .search-qq .con-searchqq{
+    list-style: none;
+}
+.box .tou .search-qq .con-searchqq::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+.box .tou .search-qq .con-searchqq li{
+    float: left;
+    margin-left: 10px;
+}
+.box .tou .search-qq .con-searchqq .search .con-search{
+    width: 30px;
+    height: 30px;
+    background: url("../images/search.png") no-repeat;
+    border-right: 2px solid #cccccc;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.box .tou .search-qq .con-searchqq .search:hover .con-search{
+    background: url("../images/search_hover.png") no-repeat;
+    transition: .5s;
+}
+.box .tou .search-qq .con-searchqq .search:hover .sous{
+    transition: .5s;
+    display: block;
+}
+.box .tou .search-qq .con-searchqq .search .sous{
+    width: 377px;
+    height: 56px;
+    border-top: 2px solid sandybrown;
+    position: absolute;
+    top: 75px;
+    left: -250px;
+    display: none;
+    background: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.box .tou .search-qq .con-searchqq .search .sous .ht{
+    width: 280px;
+    height: 35px;
+    font-size: 17px;
+    padding-left: 10px;
+    border: 1px solid #cccccc;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.box .tou .search-qq .con-searchqq .search .sous .sub{
+    width: 62px;
+    height: 36px;
+    background: #fd7701;
+    color: white;
+    border: 1px solid #fd7701;
+}
+.box .tou .search-qq .con-searchqq .shux{
+    color: #999999;
+}
+.box .tou .search-qq .con-searchqq .qq{
+    width: 30px;
+    height: 30px;
+    color: #999999;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.box .tou .search-qq .con-searchqq .qq img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.box .tou .search-qq .con-searchqq .qq p{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.box .tou .search-qq .con-searchqq .qq:hover{
+    color: #17b8e6;
+}
+.shti{
+    width: 1400px;
+    height: 360px;
+    margin: 0 auto;
+}
+.shti .lunbo img{
+    width: 100%;
+}
+.icon-speaker{
+    width: 1400px;
+    height: 30px;
+    position: relative;
+    margin: 0 auto;
+}
+.icon-speaker .speaker{
+    margin-left: 200px;
+    margin-top: 5px;
+    vertical-align: -5px;
+}
+.icon-speaker .live-open{
+    cursor: pointer;
+    width: 40px;
+    height: 21px;
+    display: block;
+    background: url("../images/icon-live-open.png") no-repeat;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+}
+.icon-speaker .speaker-span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.con{
+    width: 100%;
+    height: 2000px;
+    background: #d6dae2;
+    overflow: hidden;
+}
+.con .con-dt{
+    width: 1066px;
+    height: 2000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.con .con-dt .con-right{
+    width: 266px;
+    height: 2000px;
+    background: #fcfafb;
+    float: right;
+    margin: 0 auto;
+}
+.con .con-dt .con-left{
+    width: 780px;
+    height: 2000px;
+    margin: 0 auto;
+    float: left;
+}
+.con .con-dt .con-left .left-one{
+    width: 740px;
+    height: 353px;
+    background: #f2f1ef;
+    margin-left: 30px;
+}
