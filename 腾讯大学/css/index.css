@@ -1,7 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+*{padding: 0;margin: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
 .box{
     width: 100%;
     height: 78px;
@@ -129,6 +128,7 @@
     display: none;
     background: white;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
 }
 .box .tou .search-qq .con-searchqq .search .sous .ht{
     width: 280px;
@@ -175,6 +175,56 @@
 .shti .lunbo img{
     width: 100%;
 }
+#flash{
+    width:1400px;
+    height: 350px;
+    margin: 0px auto;
+    position: relative;
+}
+#flash #play{
+    width:1400px;
+    height: 350px;
+    list-style: none;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#flash #play li{
+    display: none;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#flash #play li img{
+    float: left;
+}
+#button{
+    position: absolute;
+    top: 310px;
+    right: 160px;
+    list-style: none;
+}
+#button li{
+    margin-left: 10px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    border: 2px solid plum;
+    border-radius: 100%;
+    cursor: pointer;
+    
+}
+#button li div{
+    width: 8px;
+    height: 8px;
+    background: #1fc0ef;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
 .icon-speaker{
     width: 1400px;
     height: 30px;
@@ -182,7 +232,7 @@
     margin: 0 auto;
 }
 .icon-speaker .speaker{
-    margin-left: 200px;
+    margin-left: 186px;
     margin-top: 5px;
     vertical-align: -5px;
 }
@@ -194,7 +244,7 @@
     background: url("../images/icon-live-open.png") no-repeat;
     margin: 0 auto;
     position: absolute;
-    left: 50%;
+    left: 49%;
     top: 10px;
 }
 .icon-speaker .speaker-span{
@@ -203,32 +253,504 @@
 }
 .con{
     width: 100%;
-    height: 2000px;
     background: #d6dae2;
     overflow: hidden;
 }
 .con .con-dt{
     width: 1066px;
-    height: 2000px;
     margin: 0 auto;
     padding-top: 20px;
 }
 .con .con-dt .con-right{
     width: 266px;
-    height: 2000px;
+    height: 2046px;
     background: #fcfafb;
     float: right;
     margin: 0 auto;
 }
 .con .con-dt .con-left{
     width: 780px;
-    height: 2000px;
-    margin: 0 auto;
     float: left;
 }
+/* 开始左边热门课程 */
 .con .con-dt .con-left .left-one{
-    width: 740px;
+    width: 780px;
     height: 353px;
     background: #f2f1ef;
+}
+.con .con-dt .con-left .left-one .one-h2{
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background: url("../images/icon-lesson.png") no-repeat 0px 23px;
+    height: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.con .con-dt .con-left .left-one .one-h2 a{
+    color: #999999;
+    font-size: 12px;
+    margin-right: 20px;
+    float: right;
+    text-decoration: none;
+}
+.con .con-dt .con-left .left-one .lesson-ul li{
+    width: 227px;
+    height: 276px;
+    background: white;
+    float: left;
+    margin-top: 10px;
     margin-left: 30px;
 }
+.con .con-dt .con-left .left-one .lesson-ul .lesson-01{
+    margin-left: 20px;
+}
+.con .con-dt .con-left .left-one .lesson-ul li img{
+    width: 227px;
+    height: 163px;
+}
+/* 设置三张图的下边线 */
+.con .con-dt .con-left .left-one .lesson-ul .lesson-01 img{
+    border-bottom: 3px solid #1fc0ef;
+}
+.con .con-dt .con-left .left-one .lesson-ul .lesson-02 img{
+    border-bottom: 3px solid #f6a544;
+}
+.con .con-dt .con-left .left-one .lesson-ul .lesson-03 img{
+    border-bottom: 3px solid #8cbe00;
+}
+/* 三边线结束 */
+.con .con-dt .con-left .left-one .lesson-ul a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 11px;
+}
+.con .con-dt .con-left .left-one .lesson-ul a:hover{
+    color: #17b8e6;
+}
+.con .con-dt .con-left .left-one .lesson-ul p{
+    margin-top: 5px;
+}
+.con .con-dt .con-left .left-one .lesson-ul .my-p{
+    font-size: 14px;
+    color: #999999;
+    margin-left: 11px;
+}
+/* 左边热门课程结束 */
+
+/* 开始左边干货分享 */
+.con .con-dt .con-left .left-two{
+    width: 780px;
+    height: 495px;
+    background: #f2f1ef;
+    margin-top: 20px;
+}
+.con .con-dt .con-left .left-two .two-h2{
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background: url("../images/icon-share.png") no-repeat 0px 23px;
+    height: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.con .con-dt .con-left .left-two .two-h2 a{
+    color: #999999;
+    font-size: 12px;
+    margin-right: 20px;
+    float: right;
+    text-decoration: none;
+}
+.con .con-dt .con-left .left-two .lesson-ul02 li{
+    width: 740px;
+    height: 125px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+/* 设置三种不同的背景图 */
+.con .con-dt .con-left .left-two .lesson-ul02 li.ul02-one{
+    margin-top: 10px;
+    background-image: url("../images/icon-at.png");
+    background-repeat: no-repeat;
+    background-position: 643px -20px;
+}
+.con .con-dt .con-left .left-two .lesson-ul02 li.ul02-two{
+    background-image: url("../images/icon-video.png");
+    background-repeat: no-repeat;
+    background-position: 641px -12px;
+}
+.con .con-dt .con-left .left-two .lesson-ul02 li.ul02-three{
+    background-image: url("../images/icon-laptop.png");
+    background-repeat: no-repeat;
+    background-position: 636px -3px;
+}
+/* 结束设置背景图 */
+.con .con-dt .con-left .left-two .lesson-ul02 .leftyd .time{
+    padding-left: 16px;
+    background: url("../images/icons.png") 0 -3px no-repeat;
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 5px;
+}
+.con .con-dt .con-left .left-two .lesson-ul02 .leftyd .my-p2{
+    font-size: 14px;
+}
+.con .con-dt .con-left .left-two .lesson-ul02 .leftyd{
+    margin-left: 161px;
+}
+.con .con-dt .con-left .left-two .lesson-ul02 h3{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 5px;
+}
+.con .con-dt .con-left .left-two .lesson-ul02 img{
+    float: left;
+    width: 121px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* 结束左边干货分享 */
+/* 开始左边专题课程 */
+.con .con-dt .con-left .left-three{
+    width: 780px;
+    height: 353px;
+    background: #f2f1ef;
+    margin-top: 20px;
+}
+.con .con-dt .con-left .left-three .one-h2{
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background: url("../images/icon-lesson.png") no-repeat 0px 23px;
+    height: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.con .con-dt .con-left .left-three .one-h2 a{
+    color: #999999;
+    font-size: 12px;
+    margin-right: 20px;
+    float: right;
+    text-decoration: none;
+}
+.con .con-dt .con-left .left-three .lesson-ul li{
+    width: 227px;
+    height: 276px;
+    background: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.con .con-dt .con-left .left-three .lesson-ul .lesson-01{
+    margin-left: 20px;
+}
+.con .con-dt .con-left .left-three .lesson-ul li img{
+    width: 227px;
+    height: 163px;
+}
+.con .con-dt .con-left .left-three .lesson-ul .lesson-01 img{
+    border-bottom: 3px solid #1fc0ef;
+}
+.con .con-dt .con-left .left-three .lesson-ul .lesson-02 img{
+    border-bottom: 3px solid #f6a544;
+}
+.con .con-dt .con-left .left-three .lesson-ul .lesson-03 img{
+    border-bottom: 3px solid #8cbe00;
+}
+.con .con-dt .con-left .left-three .lesson-ul a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 11px;
+}
+.con .con-dt .con-left .left-three .lesson-ul a:hover{
+    color: #17b8e6;
+}
+.con .con-dt .con-left .left-three .lesson-ul p{
+    margin-top: 5px;
+}
+.con .con-dt .con-left .left-three .lesson-ul .my-p{
+    font-size: 14px;
+    color: #999999;
+    margin-left: 11px;
+}
+/* 结束专题课程 */
+/* 开始精品课程 */
+.con .con-dt .con-left .left-four{
+    width: 780px;
+    height: 785px;
+    background: #f2f1ef;
+    margin-top: 20px;
+}
+.con .con-dt .con-left .left-four .one-h2{
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background: url("../images/icon-lesson.png") no-repeat 0px 23px;
+    height: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.con .con-dt .con-left .left-four .one-h2 a{
+    color: #999999;
+    font-size: 12px;
+    margin-right: 20px;
+    float: right;
+    text-decoration: none;
+}
+.con .con-dt .con-left .left-four ul li{
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.con .con-dt .con-left .left-four ul h3{
+    width: 289px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 30px;
+    float: left;
+}
+
+.con .con-dt .con-left .left-four ul .four-01 h3{
+    color: #51c9f1;
+    background: url("../images/bout-title-bg.png") no-repeat;
+}
+.con .con-dt .con-left .left-four ul .four-02 h3{
+    color: #f6a544;
+    background: url("../images/bout-title-bg.png") no-repeat 0 -24px;
+}
+.con .con-dt .con-left .left-four ul .four-03 h3{
+    color: #ff6c00;
+    background: url("../images/bout-title-bg.png") no-repeat 0 -48px;
+}
+.con .con-dt .con-left .left-four ul .four-04 h3{
+    color: #8cbe00;
+    background: url("../images/bout-title-bg.png") no-repeat 0 -72px;
+}
+
+.con .con-dt .con-left .left-four ul img{
+    width: 350px;
+    height: 236px;
+    margin-top: 15px;
+}
+.con .con-dt .con-left .left-four ul .four-yd .fourp-1{
+    font-size: 14px;
+    color: black;
+    margin-top: 8px;
+}
+.con .con-dt .con-left .left-four ul .four-yd .fourp-2{
+    font-size: 14px;
+    color: #999999;
+    margin-top: 3px;
+}
+.con .con-dt .con-left .left-four ul a{
+    float: right;
+    color: #999999;
+    font-size: 8px;
+    margin-top: 12px;
+}
+
+.con .con-dt .con-left .left-four ul .four-02{
+    margin-left: 30px;
+}
+.con .con-dt .con-left .left-four ul .four-04{
+    margin-left: 30px;
+}
+/* 结束精品课程 */
+/* 结束左边 */
+
+
+/* 排行榜右边开始 */
+.con-right .my-h3{
+    width: 226px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+    padding-left: 30px;
+    margin-left: 20px;
+    background: url("../images/icon-rank.png")no-repeat center left;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.con-right .con-top{
+    width: 225px;
+    height: 35px;
+    margin: 0 auto;
+    background: #f9fbfe;
+    border-bottom: 1px solid #a0b1c4;
+    border-top: 1px solid #a0b1c4;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.con-right .con-top .tablinks{
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+    background: white;
+    border: none;
+    outline: none;
+}
+.con-right .Content-hotnew .Content{
+    /* display: none; */
+    transition: 0.3s;
+    border-bottom: 1px solid #cccccc;
+}
+.con-right .Content-hotnew .Content .right-img{
+    width: 227px;
+    margin: 0 auto;
+}
+.con-right .Content-hotnew .Content .right-img li{
+    width: 227px;
+    height: 152px;
+    position: relative;
+    margin-top: 18px;
+}
+.con-right .Content-hotnew .Content .right-img li img{
+    width: 227px;
+    height: 152px;
+}
+.con-right .Content-hotnew .Content .right-img li .text-pos{
+    width: 227px;
+    height: 26px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 12px;
+}
+.con-right .Content-hotnew .Content .right-img li .text-pos .one{
+    padding: 5px 8px 5px 8px;
+    line-height: 26px;
+    margin-right: 5px;
+    background: red;
+}
+.con-right .Content-hotnew .Content .right-img li .text-pos .two{
+    padding: 5px 8px 5px 8px;
+    line-height: 26px;
+    margin-right: 5px;
+    background: #ec5a2e;
+}
+.con-right .Content-hotnew .Content .right-img li .text-pos .three{
+    padding: 5px 8px 5px 8px;
+    line-height: 26px;
+    margin-right: 5px;
+    background: #f6a544;
+}
+.con-right .Content-hotnew .Content .right-img li .text-pos .four{
+    padding: 5px 8px 5px 8px;
+    line-height: 26px;
+    margin-right: 5px;
+    background: #ec5a2e;
+}
+.con-right .Content-hotnew .Content .right-img li .text-pos .five{
+    padding: 5px 8px 5px 8px;
+    line-height: 26px;
+    margin-right: 5px;
+    background: #f6a544;
+}
+.con-right .Content-hotnew .Content .right-ul2{
+    width: 227px;
+    margin: 0 auto;
+}
+.con-right .Content-hotnew .Content .right-ul2 li{
+    margin-top: 10px;
+}
+.con-right .Content-hotnew .Content .right-ul2 .comprehensive{
+    background: url("../images/icon-rank-item.png") no-repeat;
+    color: white;
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+}
+.con-right .Content-hotnew .Content .right-ul2 .ysanddx2{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.right-big{
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+.right-dibu{
+    width: 227px;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.right-dibu span{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: -10px;
+    right: 100px;
+    background: url("../images/icon-mark.png") no-repeat;
+}
+.right-dibu h2{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.right-dibu p{
+    line-height: 24px;
+    font-size: 14px;
+}
+.right-big2 .myh3-2{
+    width: 226px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+    padding-left: 30px;
+    margin-left: 20px;
+    background: url("../images/icon-phone.png")no-repeat center left;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+}
+.right-big2 .textp-1{
+    color: black;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+.right-big2 .textp-1 a{
+    color: black;
+}
+.right-big2 .text-tp2{
+    width: 200px;
+    height: 119px;
+    margin: 0 auto;
+    background: #cccccc;
+    text-align: center;
+    margin-top: 20px;
+}
+.right-big2 .text-tp2 h2{
+    margin-bottom: 12px;
+    color: #343434;
+    font-size: 36px;
+    font-weight: 500;
+}
+.right-big2 .text-tp2 a{
+    display: block;
+    background: url("../images/exam-btn.png") no-repeat;
+    width: 160px;
+    height: 47px;
+    margin-left: 20px;
+}
+/* 排行榜右边结束 */
