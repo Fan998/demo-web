@@ -604,13 +604,15 @@ a{text-decoration: none;}
     outline: none;
 }
 .con-right .Content-hotnew .Content{
-    /* display: none; */
+    display: none;
     transition: 0.3s;
     border-bottom: 1px solid #cccccc;
 }
 .con-right .Content-hotnew .Content .right-img{
     width: 227px;
     margin: 0 auto;
+    text-overflow: ellipsis;
+    cursor: pointer;
 }
 .con-right .Content-hotnew .Content .right-img li{
     width: 227px;
@@ -622,7 +624,14 @@ a{text-decoration: none;}
     width: 227px;
     height: 152px;
 }
-.con-right .Content-hotnew .Content .right-img li .text-pos{
+.con-right .Content-hotnew .Content .right-ul2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 196px;
+    cursor: pointer;
+}
+.con-right .Content-hotnew .Content  li .text-pos{
     width: 227px;
     height: 26px;
     background: rgba(0,0,0,0.5);
@@ -630,32 +639,33 @@ a{text-decoration: none;}
     bottom: 0px;
     color: white;
     font-size: 12px;
+    cursor: pointer;
 }
-.con-right .Content-hotnew .Content .right-img li .text-pos .one{
+.con-right .Content-hotnew .Content  li .text-pos .one{
     padding: 5px 8px 5px 8px;
     line-height: 26px;
     margin-right: 5px;
     background: red;
 }
-.con-right .Content-hotnew .Content .right-img li .text-pos .two{
+.con-right .Content-hotnew .Content li .text-pos .two{
     padding: 5px 8px 5px 8px;
     line-height: 26px;
     margin-right: 5px;
     background: #ec5a2e;
 }
-.con-right .Content-hotnew .Content .right-img li .text-pos .three{
+.con-right .Content-hotnew .Content li .text-pos .three{
     padding: 5px 8px 5px 8px;
     line-height: 26px;
     margin-right: 5px;
     background: #f6a544;
 }
-.con-right .Content-hotnew .Content .right-img li .text-pos .four{
+.con-right .Content-hotnew .Content li .text-pos .four{
     padding: 5px 8px 5px 8px;
     line-height: 26px;
     margin-right: 5px;
     background: #ec5a2e;
 }
-.con-right .Content-hotnew .Content .right-img li .text-pos .five{
+.con-right .Content-hotnew .Content li .text-pos .five{
     padding: 5px 8px 5px 8px;
     line-height: 26px;
     margin-right: 5px;
@@ -672,10 +682,10 @@ a{text-decoration: none;}
     background: url("../images/icon-rank-item.png") no-repeat;
     color: white;
     display: block;
-    width: 20px;
+    width: 18px;
     height: 20px;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     float: left;
 }
 .con-right .Content-hotnew .Content .right-ul2 .ysanddx2{

@@ -4,8 +4,8 @@
 }
 .dibud .dibud-1{
     width: 100%;
-    height: 360px;
-    background: white;
+    height: 380px;
+    background: #f6f6f6;
 }
 .perfect1{
     width: 475px;
@@ -46,7 +46,8 @@
     width: 80px;
     height: 30px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 14px;
+    cursor: pointer;
 }
 .dibud .dibud-1 .bx .bx-p ul li img{
     width: 100%;
@@ -56,11 +57,26 @@
     color: #3f3f3f;
 }
 .dibud .dibud-1 ul.bx-ul2{
-    width: 870px;
+    width: 817px;
     height: 150px;
 }
 .dibud .dibud-1 .bx ul li.bx-li2{
-    width: 100px;
     height: 26px;
-    margin-left: 0px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.dibud .dibud-2{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background: #bababa;
+    line-height: 25px;
+    font-size: 11px;
+    padding-top: 25px;
+}
+.dibud .dibud-2 p a{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
 }
