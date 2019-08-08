@@ -255,6 +255,22 @@ a{text-decoration: none;}
     width: 100%;
     background: #d6dae2;
     overflow: hidden;
+    position: relative;
+}
+.con .ewmbox{
+    position: absolute;
+    width: 120px;
+    height: 164px;
+    top: 20px;
+    right: 285px;
+    background: white;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.con .ewmbox img{
+    width: 120px;
+    height: 120px;
 }
 .con .con-dt{
     width: 1066px;
