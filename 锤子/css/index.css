@@ -1,0 +1,495 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{background: #ededed;}
+a{text-decoration: none;}
+ul{list-style: none;}
+.bigbox-hair{
+    width: 100%;
+    height: 45px;
+    background: #2b2c2e;
+    overflow: hidden;
+}
+.bigbox-hair .my-logo{
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-left: 21px;
+    margin-top: 13px;
+}
+.bigbox-hair .hair-bx{
+    width: 1000px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+    position: relative;
+}
+.bigbox-hair .hair-bx ul li{
+    float: left;
+    font-size: 12px;
+    margin-left: 40px;
+}
+.bigbox-hair .hair-bx ul li.ft-w{
+    font-weight: 800;
+    margin-left: 117px;
+}
+.bigbox-hair .hair-bx ul li a{
+    color: #e5e5e5;
+}
+.bigbox-hair .hair-right{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 80px;
+    height: 45px;
+}
+.bigbox-hair .hair-right .personal{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: url("../images/avatar-and-cart01.png") no-repeat -38px -3px;
+    float: left;
+    padding-left: 20px;
+}
+.bigbox-hair .hair-right .Shopping{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: url("../images/avatar-and-cart01.png") no-repeat -43px -39px;
+    float: left;
+}
+.box{
+    width: 100%;
+    height: 75px;
+    background: white;
+    line-height: 75px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.box .box-bx{
+    width: 1220px;
+    height: 75px;
+    margin: 0 auto;
+}
+.box ul li{
+    float: left;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.box ul .sy:hover .baihover{display: block;}
+.box ul .sj:hover .phonemarket{display: block;}
+.box ul .gwpj:hover .parts{display: block;}
+.box ul .fsxb:hover .Dress{display: block;}
+.box ul .chx:hover .series{display: block;}
+.box ul .fw:hover .Service{display: block;}
+
+.box ul li a{
+    color: #3a3737;
+}
+.box ul li a:hover{
+    color: #3965cc;
+}
+.box .box-right{
+    float: right;
+    position: relative;
+}
+.box .box-right img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 29px;
+    left: 8px;
+    cursor: pointer;
+}
+.box .box-right input{
+    width: 300px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    border-radius: 50px;
+    padding-left: 30px;
+    outline: none;
+}
+.box .box-right p{
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    background: #e5efff;
+    color: #3965cc;
+    border: 1px solid #93b2f7;
+    border-radius: 50px;
+    position: absolute;
+    top: 29px;
+    left: 278px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#lunbo-bx{
+    width: 1220px;
+    height: 500px;
+    margin: 25px auto;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+#lunbo-bx #play li img{
+    width: 1218px;
+    height: 555px;
+    position: absolute;
+    top: -28px;
+    border: 1px solid #cccccc;
+}
+#lunbo-bx #button{
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+    list-style: none;
+}
+#lunbo-bx #button li{
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 100%;
+}
+#lunbo-bx #button li div{
+    width: 8px;
+    height: 8px;
+    background: #999999;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.hot-bx{
+    width: 1220px;
+    height: 460px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: white;
+}
+.zongh3{
+    width: 1200px;
+    height: 61px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 61px;
+    padding-left: 20px;
+    font-weight: 700;
+    color: #666;
+    font-size: 18px;
+    background: #fafafa;
+}
+.hot-bx .hot li{
+    width: 304px;
+    height: 398px;
+    float: left;
+    border-left: 1px solid #efefef;
+    text-align: center;
+}
+.hot-bx .hot ul li img{
+    width: 216px;
+    height: 240px;
+    margin: 0 auto;
+}
+.hot-bx .hot ul li .fon1{
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+.hot-bx .hot ul li .fon2{
+    padding-top: 15px;
+    font-size: 12px;
+    color: #999;
+}
+.hot-bx .hot ul li .fon3{
+    width: 8px;
+    height: 8px;
+    background: #cccccc;
+    border: 2px solid #b4b4b4;
+    border-radius: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.hot-bx .hot ul li .fon4{
+    color: #d44d44;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.Clothing-bx{
+    width: 1220px;
+    height: 890px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.Clothing-bx .Clothing .luggage{
+    width: 609px;
+    height: 413px;
+    border-bottom: 1px solid #efefef;
+    cursor: pointer;
+}
+.Clothing-bx .Clothing .luggage img{
+    width: 100%;
+    height: 100%;
+}
+.Clothing-bx .Clothing ul li{
+    width: 304px;
+    height: 413px;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+}
+.Clothing-bx .Clothing ul li .Clothing-img{
+    width: 216px;
+    height: 240px;
+    margin: 0 auto;
+}
+.Clothing-bx .Clothing ul li .fon1{
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+.Clothing-bx .Clothing ul li .fon2{
+    padding-top: 15px;
+    font-size: 12px;
+    color: #999;
+}
+.Clothing-bx .Clothing ul li .fon3{
+    width: 8px;
+    height: 8px;
+    background: #cccccc;
+    border: 2px solid #b4b4b4;
+    border-radius: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.Clothing-bx .Clothing ul li .fon4{
+    color: #d44d44;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.Breathe-bx{
+    width: 1220px;
+    height: 475px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.Breathe-bx .Breathe .Breathe-img{
+    width: 609px;
+    height: 413px;
+    border-bottom: 1px solid #efefef;
+    cursor: pointer;
+}
+.Breathe-bx .Breathe .Breathe-img img{
+    width: 100%;
+    height: 100%;
+}
+.Breathe-bx .Breathe ul li{
+    width: 304px;
+    height: 413px;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+}
+.Breathe-bx .Breathe ul li .Breathe-img2{
+    width: 216px;
+    height: 240px;
+    margin: 0 auto;
+}
+.Breathe-bx .Breathe ul li .fon1{
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+.Breathe-bx .Breathe ul li .fon2{
+    padding-top: 15px;
+    font-size: 12px;
+    color: #999;
+}
+.Breathe-bx .Breathe ul li .fon3{
+    width: 8px;
+    height: 8px;
+    background: white;
+    border: 2px solid #b4b4b4;
+    border-radius: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.Breathe-bx .Breathe ul li .fon4{
+    color: #d44d44;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.Forum-bx{
+    width: 1220px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: white;
+}
+.Forum-bx .Forum ul li img{
+    width: 245px;
+    height: 140px; 
+}
+.Forum-bx .Forum ul li{
+    width: 303px;
+    height: 267px;
+    float: left;
+    text-align: center;
+    border: 1px solid #efefef;
+    border-top: none;
+    padding-top: 30px;
+}
+.Forum-bx .Forum ul li .fon1{
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.Forum-bx .Forum ul li .fon2{
+    padding-top: 8px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+    margin-left: 30px;
+}
+.Forum-bx .Forum ul li .fon3{
+    text-align: left;
+    margin-left: 30px;
+}
+.Forum-bx .Forum ul li .fon3 a{
+    color: #3965cc;
+    font-size: 10px;
+}
+.dibu{
+    width: 100%;
+    height: 355px;
+    background: white;
+    margin-top: 30px;
+}
+.dibu .dibu-bx{
+    width: 1220px;
+    height: 224px;
+    margin: 0 auto;
+    border-bottom: 1px solid #efefef;
+}
+.dibu .dibu-bx .myli-left{
+    float: left;
+    font-size: 12px;
+}
+.dibu .dibu-bx .myli-left .fd{
+    float: left;
+    margin-left: 90px;
+}
+.dibu .dibu-bx .myli-left .fd h3{
+    margin-bottom: 25px;
+    margin-top: 60px;
+    font-size: 11px;
+    color: #666;
+}
+.dibu .dibu-bx .myli-left .fd li{
+    color: #999;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.dibu .dibu-bx .myli-left .fd li:hover{
+    color: #3965cc;
+}
+.dibu .dibu-bx .my-right{
+    float: right;
+    margin-left: 30px;
+    text-align: right;
+}
+.dibu .dibu-bx .my-right .myli1{
+    font-size: 18px;
+    font-weight: 900;
+    color: #5079d9;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.dibu .dibu-bx .my-right .myli2{
+    width: 241px;
+    font-size: 12px;
+    color: #999;
+}
+.dibu .dibu-bx .my-right .myli3{
+    width: 241px;
+    font-size: 12px;
+    color: #999;
+}
+.dibu .dibu-bx .my-right .myli4{
+    width: 132px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    float: right;
+    position: relative;
+}
+.dibu .dibu-bx .my-right .myli4 p{
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    background: #3965cc;
+    color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 8px;
+    left: 28px;
+}
+.dibu .dibu-bx .my-right .myli4 a{
+    color: #5079d9;
+    margin-left: 20px;
+}
+.dibu .dibu-bx2{
+    width: 1220px;
+    height: 120px;
+    margin: 0 auto;
+}
+.dibu .dibu-bx2 ul{
+    overflow: hidden;
+}
+.dibu .dibu-bx2 ul li{
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    color: #bdbdbd;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.dibu .dibu-bx2 ul li a{
+    font-size: 12px;
+    color: #bdbdbd;
+}
+.dibu .dibu-bx2 p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.dibu .dibu-bx2 p a{
+    color: #bdbdbd;
+}
